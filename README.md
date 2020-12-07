@@ -2,12 +2,16 @@
 ## はじめに
 
 ①必要なパッケージを下記コマンドでインストール
+'''
 pip install -r requirements.txt
+'''
 
 ②.envファイルをmanage.pyファイルと同じ階層に置く
 
 ③下記のコマンドでサーバー起動
+'''
 python manage.py runserver
+'''
 
 ## 使い方
 

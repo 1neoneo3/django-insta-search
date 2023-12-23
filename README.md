@@ -1,24 +1,22 @@
-# Django Instagram Search User
-## はじめに
+# Django Instagram User Search
+## Introduction
 
-①必要なパッケージを下記コマンドでインストール
-```
+    Install the required packages using the following command:
+
 pip install -r requirements.txt
-```
 
-②.envファイルをmanage.pyファイルと同じ階層に置く
+    Place the .env file in the same directory as the manage.py file.
 
-③下記のコマンドでサーバー起動
-```
+    Start the server with the following command:
+
 python manage.py runserver
-```
 
-## 使い方
+## How to Use
 
-下記5つの条件を指定して検索ボタンを押します。  
+Press the search button after specifying the following five criteria:
 
-①検索キーワード（複合キーワードは+をつけて入力)
-②投稿数  
-③フォロワー数  
-④アカウント開設日（「全て」が期間指定なし。"何年以内に開設したか"をオンにするとすぐ下の数字の条件がオンになり、初投稿の日が表示される。）  
-⑤何年以内に開設したか（1～5が指定できる。）
+    Search Keywords: (For compound keywords, use '+' between them)
+    Number of Posts
+    Number of Followers
+    Account Creation Date: (Select "All" for no specific period. If you activate "Within How Many Years of Establishment", the condition below becomes active, and the date of the first post is displayed.)
+    Within How Many Years of Establishment: (You can specify between 1 to 5 years.)　
